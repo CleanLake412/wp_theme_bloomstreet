@@ -1,0 +1,2 @@
+# wp_theme_bloomstreet
+静的HTMLからWorpress Themeを作ります
