@@ -17,7 +17,7 @@
 				<nav class="list">
 					<ul class="flex_wrapper">
 						<li class="hover more_tree">
-							<a href="<?php echo get_site_url(); ?>/association">協会ご紹介</a>
+							<a href="<?php echo $pagename == 'association' ? '#' : get_site_url() . '/association#'; ?>">協会ご紹介</a>
 							<ul class="dropdwn_menu">
 								<li><a href="<?php echo $pagename == 'association' ? '#greeting' : get_site_url() . '/association#greeting'; ?>">ご挨拶</a></li>
 								<li><a href="<?php echo $pagename == 'association' ? '#association_overview' : get_site_url() . '/association#association_overview'; ?>">概要</a></li>
@@ -30,7 +30,7 @@
 							<p class="accordion_icon"><span></span><span></span></p>
 						</li>
 						<li class="hover more_tree more_tree_2">
-							<a href="<?php echo get_site_url(); ?>/asian_cultural_center">アジア文化会館<br>学生・留学生寮</a>
+							<a href="<?php echo $pagename == 'asian_cultural_center' ? '#' : get_site_url() . '/asian_cultural_center#'; ?>">アジア文化会館<br>学生・留学生寮</a>
 							<ul class="dropdwn_menu">
 								<li><a href="<?php echo $pagename == 'asian_cultural_center' ? '#international_student_dormitory' : get_site_url() . '/asian_cultural_center#international_student_dormitory'; ?>">留学生寮</a></li>
 								<li><a href="<?php echo $pagename == 'asian_cultural_center' ? '#shared_dormitory' : get_site_url() . '/asian_cultural_center#shared_dormitory'; ?>">共同学寮</a></li>
@@ -54,7 +54,7 @@
 							<a href="<?php echo get_site_url(); ?>/seminar">アジア各国語講座</a>
 						</li>
 						<li class="hover more_tree">
-							<a href="<?php echo get_site_url(); ?>/donation">会費・ご寄付</a>
+							<a href="<?php echo $pagename == 'donation' ? '#' : get_site_url() . '/donation#'; ?>">会費・ご寄付</a>
 							<ul class="dropdwn_menu">
 								<li><a href="<?php echo $pagename == 'donation' ? '#sec_1' : get_site_url() . '/donation#sec_1'; ?>">会費・寄付</a></li>
 								<li><a href="<?php echo $pagename == 'donation' ? '#sec_2' : get_site_url() . '/donation#sec_2'; ?>">お支払い</a></li>
