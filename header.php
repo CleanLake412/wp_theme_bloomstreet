@@ -56,10 +56,10 @@
 						<li class="hover more_tree">
 							<a href="<?php echo get_site_url(); ?>/donation">会費・ご寄付</a>
 							<ul class="dropdwn_menu">
-								<li><a href="<?php echo $pagename == 'donation' ? '#sec_1' : get_site_url() . '/asian_cultural_center#sec_1'; ?>">会費・寄付</a></li>
-								<li><a href="<?php echo $pagename == 'donation' ? '#sec_2' : get_site_url() . '/asian_cultural_center#sec_2'; ?>">お支払い</a></li>
-								<li><a href="<?php echo $pagename == 'donation' ? '#sec_3' : get_site_url() . '/asian_cultural_center#sec_3'; ?>">免税措置</a></li>
-								<li><a href="<?php echo $pagename == 'donation' ? '#sec_4' : get_site_url() . '/asian_cultural_center#sec_4'; ?>">入会申込み</a></li>
+								<li><a href="<?php echo $pagename == 'donation' ? '#sec_1' : get_site_url() . '/donation#sec_1'; ?>">会費・寄付</a></li>
+								<li><a href="<?php echo $pagename == 'donation' ? '#sec_2' : get_site_url() . '/donation#sec_2'; ?>">お支払い</a></li>
+								<li><a href="<?php echo $pagename == 'donation' ? '#sec_3' : get_site_url() . '/donation#sec_3'; ?>">免税措置</a></li>
+								<li><a href="<?php echo $pagename == 'donation' ? '#sec_4' : get_site_url() . '/donation#sec_4'; ?>">入会申込み</a></li>
 							</ul>
 							<p class="accordion_icon"><span></span><span></span></p>
 						</li>
