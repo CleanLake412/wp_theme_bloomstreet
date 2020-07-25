@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+.more_tree_2 .dropdwn_menu {
+	top: 60px;
+}
+
+@media screen and (max-width: 767px) {
+	.more_tree_2 .dropdwn_menu {
+		top: 25px;
+	}
+}
+
+.site_info select:last-child {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+	.site_info select:last-child {
+		font-size: 100%;
+	}
+}
+
+.asian_cultural_center .shared_dormitory nav ul li {
+    width: calc(25% - 20px);
+    margin: 0 10px 20px;
+}
+
+.asian_cultural_center .shared_dormitory nav ul li a {
+    width: 100%;
+}
+
+.asian_cultural_center .sec_pad_1_t {
+	padding-top: 160px;
+}
+
+@media screen and (max-width: 767px) {
+
+	.asian_cultural_center .sec_pad_1_t {
+		padding-top: 80px;
+	}
+
+}
+
+
+.association .h_type_1 {
+	margin-top: 60px;
+}
+
+.association .pix .pix_over {
+	position: absolute;
+	right: 5%;
+	bottom: 25px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.association .sub-logo-list {
+    display: flex !important;
+	width: 100% !important;
+	padding: 12px !important;
+}
+
+.association .sub-logo-list .sub-logo-item {
+	width: 33% !important;
+	text-align: center !important;
+}
+
+.association .sub-logo-list .sub-logo-item img {
+	width: auto !important;
+	height: auto !important;
+	margin: 0 auto !important;
+}
+
+.association .sub-logo-list .sub-logo-item p {
+	line-height: 2.0 !important;
+}
+
+.association img.assn_leader_photo {
+	margin: 0 12px 12px 0;
+}
+
+.association .cooperation a, 
+.association .information a {
+    text-decoration: none;
+	color: #262626;
+}
+
+.association .history_pdf .btn_type_1 {
+	margin: 16px auto 33px;
+}
+
+.association .officer .tbl_type_2 .one, 
+.association .officer .tbl_type_2 .two, 
+.association .officer .tbl_type_2 .three {
+	width: 222px;
+}
+
+.association .officer .tbl_type_2 .td.three {
+    border-right: 1px solid #b5b5b5;
+    border-left: 1px solid #b5b5b5;
+}
+
+
+@media screen and (max-width: 767px) {
+	.association .map {
+		padding-top: 80px;
+	}
+
+	.association .sec_pad_1 {
+		padding-top: 80px;
+	}
+
+	.association .sec_pad_1_b {
+		padding-top: 80px;
+	}
+
+    .association #greeting {
+        padding: 64px 0 0;
+    }
+
+	.association .h_type_1 {
+		margin-top: 16px;
+	}
+
+	.association .sub-logo-list {
+		display: block !important;
+	}
+
+	.association .sub-logo-list .sub-logo-item {
+		width: 100% !important;
+		margin: 0 0 6px;
+	}
+
+	.association .history_pdf .btn_type_1 {
+		margin: 10px auto 20px;
+	}
+}
+
+
+
+
+.japanese_course .jp_course_img {
+	width: 100%;
+}
+
+
+
+.asian_cultural_center .type {
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+	.asian_cultural_center .type {
+		padding-top: 0px;
+	}
+}
+
+
+
+
+
+.donation_page .sec_pad_1 {
+	padding: 160px 0 80px;
+}
+
+.donation_page #sec_2 {
+	padding: 160px 0 0;
+}
+
+.donation_page .sec_pad_1_b {
+	padding-top: 160px;
+}
+
+@media screen and (max-width: 767px) {
+	.donation_page .sec_pad_1 {
+		padding: 80px 0 80px;
+	}
+
+	.donation_page #sec_2 {
+		padding: 80px 0 0;
+	}
+
+	.donation_page .sec_pad_1_b {
+		padding-top: 80px;
+	}
+
+	.donation_page #sec_3 {
+		padding: 80px 0.8rem;
+	}
+}

@@ -19,36 +19,36 @@
 				</div>
 				<nav class="flex_wrapper vx flex_sp">
 					<dl class="long">
-						<dt><a href="association.php">協会ご紹介</a></dt>
+						<dt><a href="<?php echo $pagename == 'association' ? '#' : get_site_url() . '/association'; ?>">協会ご紹介</a></dt>
 						<dd>
-							<a href="association.php#association_overview">ー 概要</a>
+							<a href="<?php echo $pagename == 'association' ? '#association_overview' : get_site_url() . '/association#association_overview'; ?>">ー 概要</a>
 						</dd>
 						<dd>
-							<a href="association.php#greeting">ー ご挨拶</a>
+							<a href="<?php echo $pagename == 'association' ? '#greeting' : get_site_url() . '/association#greeting'; ?>">ー ご挨拶</a>
 						</dd>
 						<dd>
-							<a href="association.php#history">ー 沿革</a>
+							<a href="<?php echo $pagename == 'association' ? '#history' : get_site_url() . '/association#history'; ?>">ー 沿革</a>
 						</dd>
 						<dd>
-							<a href="association.php#business_content">ー 事業内容</a>
+							<a href="<?php echo $pagename == 'association' ? '#business_content' : get_site_url() . '/association#business_content'; ?>">ー 事業内容</a>
 						</dd>
 						<dd>
-							<a href="association.php#organization_chart">ー 組織図・役員</a>
+							<a href="<?php echo $pagename == 'association' ? '#organization_chart' : get_site_url() . '/association#organization_chart'; ?>">ー 組織図・役員</a>
 						</dd>
 						<dd>
-							<a href="association.php#map">ー 所在地</a>
+							<a href="<?php echo $pagename == 'association' ? '#map' : get_site_url() . '/association#map'; ?>">ー 所在地</a>
 						</dd>
 					</dl>
 					<section class="other">
 						<dl class="flex-wrap_par">
-							<dt><a href="asian_cultural_center.php">アジア文化会館<br>学生・留学生寮</a></dt>
-							<dt><a href="japanese_course.php">留学生日本語コース</a></dt>
-							<dt><a href="jpss.php">日本留学情報</a></dt>
-							<dt><a href="international_business_support.php">国際教育支援</a></dt>
-							<dt><a href="asia.php">アジアの友</a></dt>
-							<dt><a href="seminar.php">アジア各国語講座</a></dt>
-							<dt><a href="donation.php">会費・ご寄付</a></dt>
-							<dt><a href="contact.php">お問い合わせ</a></dt>
+							<dt><a href="<?php echo get_site_url(); ?>/asian_cultural_center">アジア文化会館<br>学生・留学生寮</a></dt>
+							<dt><a href="<?php echo get_site_url(); ?>/japanese_course">留学生日本語コース</a></dt>
+							<dt><a href="<?php echo get_site_url(); ?>/jpss">日本留学情報</a></dt>
+							<dt><a href="<?php echo get_site_url(); ?>/international_business_support">国際教育支援</a></dt>
+							<dt><a href="<?php echo get_site_url(); ?>/asia">アジアの友</a></dt>
+							<dt><a href="<?php echo get_site_url(); ?>/seminar">アジア各国語講座</a></dt>
+							<dt><a href="<?php echo get_site_url(); ?>/donation">会費・ご寄付</a></dt>
+							<dt><a href="<?php echo get_site_url(); ?>/contact">お問い合わせ</a></dt>
 						</dl>
 					</section>
 				</nav>
