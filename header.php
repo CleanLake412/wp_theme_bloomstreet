@@ -1,7 +1,7 @@
         <header class="general flex_wrapper">
 			<div class="logo">
 				<h1>
-					<a href="./">
+					<a href="<?php echo get_site_url(); ?>">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/logo.header.png" alt="ABK 財団法人アジア学生文化協会The Asian Students Cultural Association" class="">
 					</a>	
 				</h1>	
@@ -15,7 +15,12 @@
     		</div>			
 			<div class="navz">
 				<nav class="list">
-					<ul class="flex_wrapper">
+                    <?php
+                        //wp_nav_menu( array(
+                        //    'theme_location' => 'my-custom-menu',
+                        //    'container_class' => 'custom-menu-class' ) );
+                    ?>
+                    <ul class="flex_wrapper">
 						<li class="hover more_tree">
 							<a href="<?php echo $pagename == 'association' ? '#' : get_site_url() . '/association#'; ?>">協会ご紹介</a>
 							<ul class="dropdwn_menu">
