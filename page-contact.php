@@ -22,40 +22,23 @@
 お問合せ・ご要望等は、以下のフォームに入力のうえ送信して下さい。<br>
 <span class="fc_red">●</span>は必須入力項目です。			
 			</span>
-			<form>
-				<article class="fomz flex-wrap_par">
-					<div class="th vx">お名前<span class="fc_red">●</span></div>
-					<div class="td vx">
-						<input type="text" name="お名前" id="name">
-						<span class="in_tx">（団体の場合は下欄に団体名もご記入下さい）</span>
-					</div>
-					<div class="th vx">国籍</div>
-					<div class="td vx">
-						<input type="text" name="国籍" id="country ">
-					</div>
-					<div class="th vx">性別<span class="fc_red">●</span></div>
-					<div class="td vx radio">
-<input type="radio" name="sex" value="male" id="otoko">
-<label for="otoko" accesskey="m">男</label>
-<input type="radio" name="sex" value="female" id="onna">
-<label for="onna" accesskey="f">女</label><br>
-					</div>
-					<div class="th vx">E-mail<span class="fc_red">●</span></div>
-					<div class="td vx">
-						<input type="text" name="E-mail" id="email">
-					</div>
-					<div class="th vx">件名</div>
-					<div class="td vx">
-						<input type="text" name="件名" id="subject ">
-					</div>
-					<div class="th vx tex_a_h">内容</div>
-					<div class="td vx tex_a_h">
-						<textarea></textarea>
-					</div>
-				</article>
-				<input type="submit" class="btn_type_send hover" value="送信する">
-				</aside>
-			</form>
+					<?php
+
+					// Start the Loop.
+					while ( have_posts() ) :
+						the_post();
+
+		//				get_template_part( 'template-parts/content/content', 'page' );
+						the_content();
+
+						// If comments are open or we have at least one comment, load up the comment template.
+						if ( comments_open() || get_comments_number() ) {
+							comments_template();
+						}
+
+					endwhile; // End the loop.
+					?>
+
 		</section>
 				
 		<?php get_footer(); ?>				

@@ -469,6 +469,41 @@ img.alignleft {
     color: #FFF;
     background-color: #b20000	
 }
+
+.wpcf7-submit{
+    width: 324px;
+	display: block;
+	margin: 20px auto 0;
+	font-weight: bold;
+	border: 1px solid #b20000;
+	text-align: center;
+	position: relative;	
+    font-size: 16px;
+    padding: 20px 0;
+	letter-spacing: .035em;
+    color: #FFF;
+    background-color: #b20000	
+}
+
+.wpcf7-form-control-wrap{
+    width: 100%;
+}
+.wpcf7-text, .wpcf7-email{
+width: 100%;
+}
+.wpcf7-not-valid-tip {
+display:block;
+color: #b20000;
+}
+.screen-reader-response {
+display:none;
+color: #b20000;
+}
+.wpcf7-response-output {
+display:block;
+text-align:center;
+color: #b20000;
+}
 .btn_type_send::after  {
 	content: "";
 	width: 24px;
@@ -717,6 +752,7 @@ ul.list_type_1 li::before{
 }
 
 input[type="text"],
+input[type="email"],
 button,
 textarea{
     margin: 0;
@@ -751,6 +787,7 @@ input[type="button"]::focus {
   outline-offset: -2px;
 }
 input[type="text"],
+input[type="email"],
 textarea, 
 select {
 	width:100%;
@@ -762,8 +799,10 @@ select {
   	transition: 0.1s linear;			
 }
 input[type="text"],
+input[type="email"],
 textarea{
 }
+input[type="email"]:focus,
 input[type="text"]:focus,
 textarea:focus{
 	outline: 0;
